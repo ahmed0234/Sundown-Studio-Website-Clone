@@ -1,0 +1,91 @@
+.center{
+    height: 65vh;
+    width: 100%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(191,187,182);
+    padding-bottom: 4vw;
+
+}
+
+.center .left h3{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: .9;
+    letter-spacing: 0.0001px;
+}
+
+.center .right h1{
+    font-size: 9vw;
+    line-height: 7.5vw;
+    text-align: right;
+  
+}
+
+
+@media screen and (max-width: 1280px) {
+    .center .left h3{
+
+        font-size: 2vw;
+        width: 27vw;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .center{
+        height: 300px;
+        width: 100%;
+
+    
+    }
+    .center .left h3{
+        font-size: 2.4vw;
+        width: 25ch;
+
+    }
+}
+@media screen and (max-width: 625px) {
+    .center{
+        height: 250px;
+        width: 100%;
+
+    
+    }
+    .center .left h3{
+        font-size: 2.4vw;
+        width: 25ch;
+
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .center{
+        height: 220px;
+        width: 100%;
+
+    
+    }
+    .center .left h3{
+        font-size: 2.4vw;
+        width: 25ch;
+
+    }
+}
+@media screen and (max-width: 445px) {
+   
+    .center .left h3{
+        font-size: 2.8vw;
+
+        width: 25ch;
+        line-height: 1.1;
+
+    }
+
+    html body div#main div.page1 div.center div.right h1{
+        font-size: 11vw;
+        line-height: 0.8;
+    }
+}
+

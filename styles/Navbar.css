@@ -1,0 +1,89 @@
+.page1 nav{
+    padding: 1.5vw 0vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+  
+  }
+
+ 
+  
+  .page1 nav .nav_part2{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 1vw;
+    
+  }
+  @media screen and (max-width: 768px) {
+    .page1 nav .nav_part2{
+      display: none;
+    }
+}
+  
+  .page1 nav .nav_part2 h4{
+    color: rgb(51, 51, 51);
+    padding: 10px 20px;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+  
+  .page1 nav .nav_part2 h4::after{
+    content: '';
+    position: absolute;
+    height: 100%; 
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.3s;
+  }
+  
+  .page1 nav .nav_part2 h4:hover::after{
+    bottom: 0;
+    border-radius: 0;
+  }
+  
+  
+  .page1 nav .nav_part2 h4 a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    z-index: 9;
+    position: relative;
+  }
+  
+  .page1 nav .nav_part2 h4:hover a{
+    color: white;
+  }
+
+
+    @media screen and (max-width: 445px) {
+        .page1 nav img{
+          width: 90px;
+          /* border: 1px solid red; */
+        }
+        .page1 nav{
+            padding: 2.2vw;
+        }
+}
+    @media screen and (max-width: 345px) {
+        .page1 nav img{
+          width: 110px;
+          /* border: 1px solid red; */
+        }
+        .page1 nav{
+            padding: 3vw;
+            padding-top: 3.8vw;
+        }
+}

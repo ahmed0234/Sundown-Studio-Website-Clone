@@ -1,0 +1,69 @@
+.page1 nav .hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .page1 nav .hamburger{
+            display: block;
+         
+    
+}
+.page1 nav .hamburger button{
+    border: none;
+    background-color: none  ;
+    background: none;
+    cursor: pointer;
+    font-size: 4vw;
+
+}
+}
+
+@media screen and (max-width: 645px) {
+
+    .page1 nav .hamburger{
+            display: block;
+         
+    
+}
+.page1 nav .hamburger button{
+    border: none;
+    background-color: none  ;
+    background: none;
+    cursor: pointer;
+    font-size: 5.5vw;
+
+}
+}
+@media screen and (max-width: 445px) {
+
+    .page1 nav .hamburger{
+            display: block;
+         
+    
+}
+.page1 nav .hamburger button{
+    border: none;
+    background-color: none  ;
+    background: none;
+    cursor: pointer;
+    font-size: 6.5vw;
+
+}
+}
+@media screen and (max-width: 345px) {
+
+    .page1 nav .hamburger{
+            display: block;
+         
+    
+}
+.page1 nav .hamburger button{
+    border: none;
+    background-color: none  ;
+    background: none;
+    cursor: pointer;
+    font-size: 7vw;
+
+}
+}
